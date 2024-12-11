@@ -1,10 +1,10 @@
 {
-    "name": "Kitteh's-Welcome-Messages",
-    "version": "3.0.0",
+    "name": "MOTD",
+    "version": "3.10.0",
     "main": "messages.js",
     "license": "MIT",
-    "author": "KittehKun",
-    "akiVersion": "3.*.*",
+    "author": "KittehKun & BALIST0N",
+    "sptVersion": "3.*.*",
         "scripts": {
         "setup:environment": "npm i",
         "build:unzipped": "copyfiles -e \"./node_modules/**/*.*\" -e \"./dist/**/*.*\" -e \"./package-lock.json\" -e \"./tsconfig.json\" -e \"./README.txt\" -e \"./mod.code-workspace\" \"./**/*.*\" ./dist",
